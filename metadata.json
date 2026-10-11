@@ -1,0 +1,6 @@
+{
+  "name": "CareConnect - Hospital Appointment Booking",
+  "description": "Discover doctors, explore medical departments, and book hospital appointments with CareConnect.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
