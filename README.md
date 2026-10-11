@@ -43,23 +43,13 @@ To simplify the process of finding healthcare professionals and booking appointm
 ## 🖥️ Website Preview
 
 <p align="center">
-  <img src="screenshots/careconnect-home.png" alt="CareConnect homepage screenshot" width="100%" />
+  <src/assets/images/CareConnect-home page.png>
 </p>
 
 <p align="center">
   <em>CareConnect homepage — add your actual website screenshot to display it here.</em>
 </p>
 
-> **How to add your screenshot**
->
-> 1. Take a screenshot of your CareConnect homepage.
-> 2. Create a folder named `screenshots` in your project root.
-> 3. Save the image inside it as `careconnect-home.png`.
-> 4. Commit and push the image to GitHub.
->
-> Make sure the image path and filename match the Markdown above.
-
----
 
 ## ✨ Key Features
 
