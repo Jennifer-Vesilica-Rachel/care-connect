@@ -22,6 +22,27 @@ import { Doctor, Department, Appointment } from '../types';
 import { useApp } from '../context/AppContext';
 import { IconRenderer } from '../components/common/IconRenderer';
 
+const DoctorAvatar: React.FC<{ doc: Doctor }> = ({ doc }) => {
+  const [error, setError] = useState(false);
+  const initials = doc.name.replace('Dr. ', '').slice(0, 2);
+  if (doc.imageUrl && !error) {
+    return (
+      <img
+        src={doc.imageUrl}
+        alt={doc.name}
+        className="w-full h-full object-cover"
+        referrerPolicy="no-referrer"
+        onError={() => setError(true)}
+      />
+    );
+  }
+  return (
+    <div className="w-full h-full flex items-center justify-center font-bold text-xs text-white bg-[#172B46]">
+      {initials}
+    </div>
+  );
+};
+
 export const Appointments: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const { user, appointments, addAppointment, cancelAppointment } = useApp();
@@ -365,18 +386,7 @@ export const Appointments: React.FC = () => {
                             >
                               <div className="flex items-center gap-4">
                                 <div className="w-14 h-14 rounded-xl bg-slate-100 overflow-hidden border border-slate-200 shrink-0">
-                                  {doc.imageUrl ? (
-                                    <img
-                                      src={doc.imageUrl}
-                                      alt={doc.name}
-                                      className="w-full h-full object-cover"
-                                      referrerPolicy="no-referrer"
-                                    />
-                                  ) : (
-                                    <div className="w-full h-full flex items-center justify-center font-bold text-[#172B46] bg-slate-100">
-                                      {doc.name.charAt(4)}
-                                    </div>
-                                  )}
+                                  <DoctorAvatar doc={doc} />
                                 </div>
                                 <div>
                                   <h3 className="text-base font-bold text-[#172B46]">{doc.name}</h3>

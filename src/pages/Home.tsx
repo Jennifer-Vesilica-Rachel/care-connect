@@ -18,6 +18,8 @@ import { DoctorCard } from '../components/common/DoctorCard';
 import { DepartmentCard } from '../components/common/DepartmentCard';
 import { StarRating } from '../components/common/StarRating';
 import { CareConnectLogo } from '../components/common/CareConnectLogo';
+import heroConsultationImg from '../assets/images/careconnect_hero_consultation_1791732420482.jpg';
+import medicalTeamImg from '../assets/images/careconnect_medical_team_1791732432419.jpg';
 
 export const Home: React.FC = () => {
   const navigate = useNavigate();
@@ -136,7 +138,7 @@ export const Home: React.FC = () => {
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-3xl overflow-hidden border border-slate-200 shadow-md bg-white">
                 <img
-                  src="/src/assets/images/careconnect_hero_consultation_1791732420482.jpg"
+                  src={heroConsultationImg}
                   alt="Doctor consulting with a patient in modern hospital clinic"
                   referrerPolicy="no-referrer"
                   className="w-full h-[400px] sm:h-[480px] object-cover"
@@ -303,7 +305,7 @@ export const Home: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-3xl overflow-hidden border border-slate-200 shadow-sm relative">
                 <img
-                  src="/src/assets/images/careconnect_medical_team_1791732432419.jpg"
+                  src={medicalTeamImg}
                   alt="CareConnect healthcare team"
                   referrerPolicy="no-referrer"
                   className="w-full h-[440px] object-cover"

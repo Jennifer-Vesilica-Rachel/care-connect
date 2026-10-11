@@ -36,6 +36,7 @@ export const DoctorProfile: React.FC = () => {
   const [newReviewerName, setNewReviewerName] = useState('');
   const [newReviewComment, setNewReviewComment] = useState('');
   const [newReviewRating, setNewReviewRating] = useState(5);
+  const [imageError, setImageError] = useState(false);
 
   if (!doctor) {
     return (
@@ -104,12 +105,13 @@ export const DoctorProfile: React.FC = () => {
             {/* Doctor Photo */}
             <div className="lg:col-span-3 flex justify-center lg:justify-start">
               <div className="w-36 h-36 sm:w-44 sm:h-44 rounded-2xl overflow-hidden bg-slate-100 border border-slate-200 shadow-xs">
-                {doctor.imageUrl ? (
+                {doctor.imageUrl && !imageError ? (
                   <img
                     src={doctor.imageUrl}
                     alt={doctor.name}
                     className="w-full h-full object-cover object-top"
                     referrerPolicy="no-referrer"
+                    onError={() => setImageError(true)}
                   />
                 ) : (
                   <div className="w-full h-full flex flex-col items-center justify-center bg-[#172B46] text-white">

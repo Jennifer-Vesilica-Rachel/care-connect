@@ -11,6 +11,7 @@ import {
   Award,
   ArrowRight
 } from 'lucide-react';
+import modernFacilityImg from '../assets/images/careconnect_modern_facility_1791732448898.jpg';
 
 export const About: React.FC = () => {
   return (
@@ -39,7 +40,7 @@ export const About: React.FC = () => {
             <div className="lg:col-span-6">
               <div className="rounded-3xl overflow-hidden border border-slate-200 shadow-sm">
                 <img
-                  src="/src/assets/images/careconnect_modern_facility_1791732448898.jpg"
+                  src={modernFacilityImg}
                   alt="Modern hospital reception and consultation center"
                   className="w-full h-[400px] object-cover"
                   referrerPolicy="no-referrer"
