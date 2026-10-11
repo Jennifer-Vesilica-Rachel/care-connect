@@ -382,7 +382,7 @@ B.Tech — Information Science & Engineering
 Interested in software development, data analytics, and intelligent systems.
 
 <p align="left">
-  <a href="https://github.com/YOUR_USERNAME">
+  <a href="https://github.com/Jennifer-Vesilica-Rachel">
     <img src="https://img.shields.io/badge/GitHub-Visit%20Profile-181717?style=for-the-badge&logo=github" alt="GitHub profile" />
   </a>
 </p>
