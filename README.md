@@ -387,7 +387,6 @@ Interested in software development, data analytics, and intelligent systems.
   </a>
 </p>
 
-*Replace `YOUR_USERNAME` with your actual GitHub username.*
 
 ---
 
