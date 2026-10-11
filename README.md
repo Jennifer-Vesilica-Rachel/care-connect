@@ -1,395 +1,373 @@
-# 🏥 CareConnect — Hospital Appointment Booking System
+::: {align="center"}
+# 🏥 CareConnect
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=30&pause=1000&color=172B46&center=true&vCenter=true&width=800&lines=Welcome+to+CareConnect;Better+Care.+Easier+Appointments.;Find+Doctors.+Book+Appointments.+Get+Care." alt="CareConnect animated heading" />
-</p>
+### Better Care. Easier Appointments.
 
-<p align="center">
-  A modern, user-friendly healthcare platform designed to make finding doctors and booking hospital appointments easier.
-</p>
+A modern healthcare appointment platform designed to help patients
+discover doctors, explore medical specialties, and navigate the
+appointment-booking journey through a clean, user-friendly interface.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Project-CareConnect-172B46?style=for-the-badge" alt="CareConnect project" />
-  <img src="https://img.shields.io/badge/Domain-Healthcare-56B7AD?style=for-the-badge" alt="Healthcare" />
-  <img src="https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge" alt="In development" />
-</p>
+[![Live
+Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-0D9488?style=for-the-badge)](https://care-connect-pi-umber.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Jennifer-Vesilica-Rachel/care-connect)
+:::
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
-</p>
-
----
+------------------------------------------------------------------------
 
 ## 📌 About the Project
 
-**CareConnect** is a healthcare appointment booking platform that helps patients discover doctors, explore medical departments, and manage their appointment journey through a simple digital interface.
+**CareConnect** is a healthcare website concept built to make the
+process of finding a doctor and exploring hospital appointment options
+easier. It brings key healthcare information into one place and presents
+it through a modern, approachable digital experience.
 
-The project focuses on making healthcare services more accessible through a clean, responsive, and easy-to-use website.
+The project emphasizes clear navigation, accessible layouts, and a
+consistent visual identity---helping users move from discovering a
+medical specialty to exploring doctor details and the appointment flow.
 
 ### 🎯 Project Goal
 
-To simplify the process of finding healthcare professionals and booking appointments while providing a smooth experience for patients, parents, elderly users, and caregivers.
-
-### 💬 Tagline
+To create a simple and welcoming digital experience that helps patients
+find relevant healthcare information and begin the appointment-booking
+process with less confusion.
 
 > **Better Care. Easier Appointments.**
 
----
-
-## 🖥️ Website Preview
-
-<p align="center">
-  <src/assets/images/CareConnect-home page.png>
-</p>
-
-<p align="center">
-  <em>CareConnect homepage — add your actual website screenshot to display it here.</em>
-</p>
-
-
 ## ✨ Key Features
 
-### 🏠 1. Home Page
+  -----------------------------------------------------------------------
+  Feature                             Description
+  ----------------------------------- -----------------------------------
+  🏠 **Healthcare Landing Page**      Introduces CareConnect and provides
+                                      clear entry points to key areas of
+                                      the website.
 
-* Clean and welcoming healthcare landing page.
-* Introduction to the CareConnect platform.
-* Clear call-to-action for booking appointments.
-* Quick access to doctors and medical departments.
+  👨‍⚕️ **Find a Doctor**                Lets users explore doctor
+                                      information and specializations.
 
-### 👨⚕️ 2. Find a Doctor
+  🩺 **Medical Departments**          Organizes healthcare services by
+                                      specialty to help users identify
+                                      relevant care.
 
-* Browse available doctor profiles.
-* View doctor names, specializations, and profile details.
-* Help users identify a suitable healthcare professional.
+  📅 **Appointment Flow**             Provides an interface for choosing
+                                      a doctor and reviewing appointment
+                                      details.
 
-### 🩺 3. Departments
+  👤 **Doctor Profiles**              Presents doctor information in a
+                                      clear, organized layout.
 
-* Explore different medical specialties.
-* Organize healthcare services by department.
-* Make it easier for patients to find the appropriate specialty.
+  ℹ️ **About CareConnect**            Explains the platform's purpose and
+                                      patient-focused approach.
 
-### 📅 4. Appointment Booking
+  📞 **Contact Page**                 Gives visitors a place to find
+                                      contact information or request
+                                      assistance.
 
-* Provide an interface for selecting a doctor.
-* Choose a preferred appointment date and time.
-* Display appointment details for review.
+  🔐 **Account Screens**              Includes login and registration
+                                      interfaces where implemented.
 
-### 👤 5. Doctor Profile
+  📱 **Responsive UI**                Designed with a clean layout
+                                      intended to work across common
+                                      screen sizes.
+  -----------------------------------------------------------------------
 
-* Display doctor information and specialization.
-* Present relevant profile details in an organized layout.
-* Provide a path to start the appointment booking process.
+> **Note:** The availability of real authentication, database
+> persistence, live appointment slots, and booking confirmations depends
+> on the backend services configured for the deployed project. Do not
+> use this prototype as a real patient-record system.
 
-### ℹ️ 6. About Us
+## 🖥️ Live Preview
 
-* Explain the purpose and vision of CareConnect.
-* Communicate the platform's focus on accessible healthcare.
-* Introduce the service to new visitors.
+Explore the deployed website:
 
-### 📞 7. Contact Page
+**🔗 [Open CareConnect Live
+Demo](https://care-connect-pi-umber.vercel.app/)**
 
-* Display contact information.
-* Provide a user-friendly contact interface.
-* Help visitors find assistance.
+### 📸 Screenshots
 
-### 🔐 8. Login and Registration
+Add screenshots of the actual deployed application to your repository
+(for example, in `public/images/` or a `screenshots/` folder), then
+update the paths below.
 
-* Provide interfaces for existing and new users.
-* Support the planned user account experience.
-* Prepare the application for future authentication integration.
+  ------------------------------------------------------------------------------------------------------------
+  Homepage                                              Find a Doctor
+  ----------------------------------------------------- ------------------------------------------------------
+  `![CareConnect homepage](screenshots/homepage.png)`   `![Find a Doctor page](screenshots/find-doctor.png)`
 
----
+  ------------------------------------------------------------------------------------------------------------
+
+  -------------------------------------------------------------------------------------------------------------------------
+  Departments                                          Appointment Flow
+  ---------------------------------------------------- --------------------------------------------------------------------
+  `![Departments page](screenshots/departments.png)`   `![Appointment booking page](screenshots/appointment-booking.png)`
+
+  -------------------------------------------------------------------------------------------------------------------------
+
+*Replace the example image paths with screenshots that exist in your
+repository. Until then, GitHub will show the image paths as text.*
+
+## 🧭 How It Works
+
+1.  **Explore the homepage** --- learn about the CareConnect platform.
+2.  **Find a doctor** --- browse available doctor profiles and
+    specializations.
+3.  **Explore departments** --- identify the relevant medical specialty.
+4.  **Review doctor details** --- learn more about a selected doctor.
+5.  **Start the appointment flow** --- choose appointment details where
+    supported.
+6.  **Review the information** --- check the selected details before
+    proceeding.
+
+The exact actions available depend on the features and services enabled
+in the current deployment.
+
+## 🏗️ Application Architecture
+
+CareConnect uses a React-based frontend with Vite for development and
+production builds. The repository also includes Express and Google GenAI
+packages, which can support server-side/API and generative-AI
+functionality when implemented and configured.
+
+``` mermaid
+flowchart TD
+    A[Patient / Visitor] --> B[CareConnect Web Interface]
+    B --> C[Homepage and Navigation]
+    B --> D[Doctor Discovery]
+    B --> E[Medical Departments]
+    B --> F[Appointment Interface]
+    B --> G[Login / Registration UI]
+    B --> H[Contact and About Pages]
+    B -. where configured .-> I[API / Backend Services]
+    I -. where configured .-> J[Data Storage or External Services]
+```
+
+*The diagram is a high-level overview of the intended user journey. It
+does not imply that a database, authentication provider, or external
+hospital system is already connected.*
 
 ## 🛠️ Tech Stack
 
-| Technology   | Purpose                                         |
-| ------------ | ------------------------------ |
-| React        | Building reusable user interface components     |
-| TypeScript   | Adding static types to JavaScript               |
-| Tailwind CSS | Styling responsive website layouts              |
-| Vite         | Development server and build tooling            |
-| React Router | Navigating between website pages, if configured |
-| Git          | Version control                                 |
-| GitHub       | Source code hosting and project collaboration   |
+  -----------------------------------------------------------------------
+  Technology                          Purpose
+  ----------------------------------- -----------------------------------
+  **React**                           Building reusable user-interface
+                                      components
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite,git,github" alt="Technology stack icons" />
-</p>
+  **TypeScript**                      Adding type safety to JavaScript
 
-*The listed technologies should match the packages actually installed in your project. Remove any that your implementation does not use.*
+  **Vite**                            Development server and production
+                                      build tooling
 
----
+  **Tailwind CSS**                    Styling and responsive layouts
 
-## 🎨 Design System
+  **React Router**                    Client-side page navigation, where
+                                      configured
 
-CareConnect uses a calm, modern visual style intended to communicate trust, clarity, and accessibility.
+  **Lucide React**                    Icons for interface elements
 
-| Design Element | Value                 | Usage                            |
-| -------------- | --------------------- | -------------------------------- |
-| Deep Navy      | `#172B46`             | Primary brand color and headings |
-| Warm Ivory     | `#F7F4ED`             | Backgrounds and light surfaces   |
-| Muted Teal     | `#56B7AD`             | Accent elements and highlights   |
-| Soft Green     | Adjust to your design | Supporting accents               |
-| White          | `#FFFFFF`             | Cards and content areas          |
+  **Motion**                          UI animations and transitions
 
-### Design Principles
+  **Express**                         Node.js web server/API framework,
+                                      where used
 
-* Minimal and modern interface.
-* Clear navigation and readable typography.
-* Consistent colors and spacing.
-* Responsive layouts for different screen sizes.
-* Accessible, easy-to-understand actions.
-* Consistent CareConnect branding.
+  **Google GenAI SDK**                Google generative-AI integration,
+                                      where configured
 
----
+  **Git & GitHub**                    Version control and source-code
+                                      hosting
+
+  **Vercel**                          Deployment of the live website
+  -----------------------------------------------------------------------
+
+## 🎨 Design Direction
+
+CareConnect follows a calm, modern healthcare visual direction intended
+to communicate trust, clarity, and care.
+
+  Design element   Color       Intended use
+  ---------------- ----------- ----------------------------------
+  Deep Navy        `#172B46`   Primary brand color and headings
+  Warm Ivory       `#F7F4ED`   Backgrounds and light surfaces
+  Muted Teal       `#56B7AD`   Accents and highlights
+  White            `#FFFFFF`   Cards and content surfaces
+
+### Design principles
+
+-   Clear and intuitive navigation
+-   Readable typography and visual hierarchy
+-   Consistent spacing, colors, and components
+-   Patient-friendly language and calls to action
+-   Layouts designed to adapt to different screen sizes
 
 ## 📂 Project Structure
 
-The following is an example structure for a React and TypeScript application. Adjust it to match your actual project files.
+The repository includes a `public/images/` directory and a `src/`
+directory. The outline below is a **guide to the main project areas**;
+consult the repository for the exact current file names.
 
-```text
-CareConnect/
-│
+``` text
+care-connect/
 ├── public/
-│   ├── images/
-│   └── favicon.svg
-│
-├── screenshots/
-│   └── careconnect-home.png
-│
-├── src/
-│   ├── assets/
-│   │
-│   ├── components/
-│   │   ├── Navbar.tsx
-│   │   ├── Footer.tsx
-│   │   └── DoctorCard.tsx
-│   │
-│   ├── pages/
-│   │   ├── Home.tsx
-│   │   ├── FindDoctor.tsx
-│   │   ├── Departments.tsx
-│   │   ├── Appointments.tsx
-│   │   ├── DoctorProfile.tsx
-│   │   ├── About.tsx
-│   │   ├── Contact.tsx
-│   │   ├── Login.tsx
-│   │   └── Register.tsx
-│   │
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── index.css
-│
+│   └── images/           # Public images and visual assets
+├── src/                  # React application source
+├── .env.example          # Example environment configuration
 ├── .gitignore
 ├── index.html
-├── package.json
-├── package-lock.json
-├── tsconfig.json
-├── vite.config.ts
+├── package.json          # Dependencies and npm scripts
+├── bun.lock              # Bun dependency lockfile
+├── tsconfig.json         # TypeScript configuration
+├── vite.config.ts        # Vite configuration
 └── README.md
 ```
 
-> This is a suggested structure, not a claim about your current files. Keep the actual folder and filenames from your project.
-
----
-
 ## 🚀 Getting Started
-
-Follow these steps to run CareConnect locally.
 
 ### Prerequisites
 
-Install the following tools:
+Install the following:
 
-* [Node.js](https://nodejs.org/) — use a version compatible with your project.
-* npm — included with Node.js.
-* [Git](https://git-scm.com/).
-* A code editor such as [Visual Studio Code](https://code.visualstudio.com/).
+-   [Node.js](https://nodejs.org/) --- use a version compatible with the
+    project dependencies
+-   npm (included with Node.js)
+-   [Git](https://git-scm.com/)
+-   A code editor such as [Visual Studio
+    Code](https://code.visualstudio.com/)
 
-### 1. Clone the Repository
+### 1. Clone the repository
 
-Replace `YOUR_USERNAME` with your GitHub username and `YOUR_REPOSITORY` with your repository name.
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+``` bash
+git clone https://github.com/Jennifer-Vesilica-Rachel/care-connect.git
+cd care-connect
 ```
 
-### 2. Open the Project Folder
+### 2. Install dependencies
 
-```bash
-cd YOUR_REPOSITORY
-```
-
-### 3. Install Dependencies
-
-```bash
+``` bash
 npm install
 ```
 
-### 4. Start the Development Server
+### 3. Configure environment variables
 
-For a Vite project, run:
+If your local setup requires API keys or other environment values, check
+`.env.example` and create a local `.env` file with the required values.
 
-```bash
+``` bash
+# Create a local environment file, then add the values required by your setup.
+# Do not commit secrets or private API keys to GitHub.
+```
+
+Do not add real API keys to source code or commit your `.env` file.
+
+### 4. Start the development server
+
+``` bash
 npm run dev
 ```
 
-Open the local URL printed in your terminal, often:
+Open the local URL printed in the terminal. The current package script
+uses port `3000`.
 
-```text
-http://localhost:5173
-```
+### 5. Build for production
 
-### 5. Build for Production
-
-```bash
+``` bash
 npm run build
 ```
 
-If your project includes a preview script, you can test the production build with:
+### 6. Preview the production build
 
-```bash
+``` bash
 npm run preview
 ```
 
----
+### Available scripts
 
-## 🔄 How the Application Works
+  -----------------------------------------------------------------------
+  Command                             Description
+  ----------------------------------- -----------------------------------
+  `npm run dev`                       Starts the Vite development server
+                                      on port 3000
 
-The planned user journey is:
+  `npm run build`                     Builds the application for
+                                      production
 
-1. **Visit the homepage** — learn about CareConnect.
-2. **Find a doctor** — browse doctors and their specializations.
-3. **Explore departments** — identify the relevant medical specialty.
-4. **Select a doctor** — open the doctor's profile.
-5. **Choose an appointment** — select a preferred date and time.
-6. **Review the details** — check the appointment information.
-7. **Access the account interface** — use the login or registration pages where implemented.
+  `npm run preview`                   Serves the production build locally
 
-Actual booking confirmation, user accounts, and appointment persistence depend on the backend and integrations connected to the application.
-
----
-
-## 📱 Responsive Design
-
-CareConnect is intended to provide a consistent experience across:
-
-* Desktop computers
-* Laptops
-* Tablets
-* Mobile phones
-
-Responsive behavior depends on the layouts and breakpoints implemented in the frontend.
-
----
-
-## 🔒 Security and Privacy
-
-Healthcare applications can handle sensitive personal information. A production version of CareConnect should include:
-
-* Secure authentication and authorization.
-* Server-side input validation.
-* Protected patient and appointment records.
-* Appropriate access controls.
-* Secure communication over HTTPS.
-* Privacy-conscious data handling.
-* Compliance with applicable healthcare and data-protection requirements.
-
-**Important:** Do not use real patient information in a demo or prototype. Use sample data until the appropriate security and privacy measures are in place.
-
----
-
-## 🚧 Current Limitations
-
-CareConnect may initially run as a frontend prototype.
-
-Depending on the current implementation:
-
-* Doctor information may come from sample or mock data.
-* Appointment booking may not save records to a real database.
-* Login and registration screens may not authenticate real users.
-* Email, SMS, and appointment reminders may not be connected.
-* A real hospital management system may not be integrated.
-
-A working interface alone does not mean that these backend services are available.
-
----
-
-## 🔮 Future Enhancements
-
-Planned improvements may include:
-
-* [ ] Backend API integration.
-* [ ] Database integration for doctors and appointments.
-* [ ] Secure patient registration and login.
-* [ ] Real-time appointment availability.
-* [ ] Appointment confirmation and cancellation.
-* [ ] Email or SMS notifications.
-* [ ] Patient appointment history.
-* [ ] Doctor and administrator dashboards.
-* [ ] Search and filtering by specialization.
-* [ ] Accessibility improvements and usability testing.
-* [ ] Deployment to a public hosting platform.
-
----
+  `npm run lint`                      Runs the TypeScript type-check
+                                      command configured in the project
+  -----------------------------------------------------------------------
 
 ## 🌐 Deployment
 
-CareConnect can be deployed to a static frontend hosting platform once the project builds successfully.
+CareConnect is deployed on Vercel.
 
-Possible options include:
+-   **Live website:** https://care-connect-pi-umber.vercel.app/
+-   **Source code:**
+    https://github.com/Jennifer-Vesilica-Rachel/care-connect
 
-* [Vercel](https://vercel.com/)
-* [Netlify](https://www.netlify.com/)
-* [GitHub Pages](https://pages.github.com/)
+To deploy your own version, import the GitHub repository into Vercel,
+configure any required environment variables in the Vercel project
+settings, and deploy using the build settings appropriate for the
+repository.
 
-Choose a platform compatible with your framework and routing setup. If the application uses client-side routing, configure the host to serve the app entry point for valid page routes. Backend services, if required, must be deployed and configured separately.
+## 🔒 Security and Privacy
 
----
+Healthcare-related applications may handle sensitive personal
+information. Before using CareConnect with real patients, ensure that
+the production implementation includes:
 
-## 🤝 Contributing
+-   Secure authentication and authorization
+-   Server-side validation of user input
+-   Proper access controls for patient and appointment data
+-   Secure handling of environment variables and API keys
+-   Appropriate privacy safeguards and applicable legal compliance
+-   Reliable storage, error handling, and monitoring
 
-Contributions and suggestions are welcome.
+Use sample data for demos and testing. Do not enter real patient
+information unless the application has been reviewed and approved for
+that purpose.
 
-1. Fork the repository.
-2. Create a feature branch.
-3. Make your changes.
-4. Test the application.
-5. Submit a pull request describing your changes.
+## 🚧 Limitations and Future Enhancements
 
----
+Potential next steps for the project include:
 
-## 👩💻 Author
+-   Connect appointment booking to a backend API and database
+-   Add secure patient accounts and authentication
+-   Display real-time doctor availability and appointment slots
+-   Support booking confirmation, rescheduling, and cancellation
+-   Add email or SMS appointment reminders
+-   Create doctor and administrator dashboards
+-   Add search and filtering by department or specialization
+-   Improve accessibility and test usability across devices
 
-**Jennifer Vesilica Rachel S**
+These are possible enhancements, not claims that the features are
+already implemented.
 
-B.Tech — Information Science & Engineering
+## 📁 Project Resources
 
-Interested in software development, data analytics, and intelligent systems.
+-   **GitHub repository:**
+    [care-connect](https://github.com/Jennifer-Vesilica-Rachel/care-connect)
+-   **Live website:** [CareConnect on
+    Vercel](https://care-connect-pi-umber.vercel.app/)
+-   **Project assets and documentation:** [Google Drive
+    folder](https://drive.google.com/drive/folders/1jfkH91QslRPuVtHws3GmCKInR2wdf4Nv?usp=drive_link)
 
-<p align="left">
-  <a href="https://github.com/Jennifer-Vesilica-Rachel">
-    <img src="https://img.shields.io/badge/GitHub-Visit%20Profile-181717?style=for-the-badge&logo=github" alt="GitHub profile" />
-  </a>
-</p>
+## 👩‍💻 Author
 
+**Jennifer Vesilica Rachel S**\
+B.Tech --- Information Science & Engineering
 
----
+GitHub:
+[@Jennifer-Vesilica-Rachel](https://github.com/Jennifer-Vesilica-Rachel)
 
 ## 📄 License
 
-This project is intended for educational and portfolio purposes. Add a `LICENSE` file if you want to publish it under a specific open-source license.
+This project is intended for educational and portfolio purposes. If you
+plan to distribute it as open-source software, add a `LICENSE` file and
+specify the license terms.
 
----
+------------------------------------------------------------------------
 
-<p align="center">
-  <strong>CareConnect</strong>
-  <br />
-  Better Care. Easier Appointments.
-  <br /><br />
-  Made with ❤️ to make healthcare appointments easier.
-</p>
+::: {align="center"}
+**CareConnect --- Better Care. Easier Appointments.**\
+Made with ❤️ to make healthcare appointments easier.
+:::
